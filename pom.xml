@@ -14,7 +14,7 @@
     <name>mini</name>
     <description>mini</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>19</java.version>
     </properties>
     <dependencies>
         <dependency>
