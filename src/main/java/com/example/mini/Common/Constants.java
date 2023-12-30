@@ -12,4 +12,6 @@ public interface Constants {
     int code_505 = 505;//买方不存在
     int code_606 = 606;//卖方不存在
     int code_707 = 707;//双方都不存在
+    int code_800 = 800;//商品已存在
+    int code_801 = 801;//商品插入失败
 }

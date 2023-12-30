@@ -18,20 +18,12 @@ public class User {
     private int user_id;
     @TableField(value = "username")
     private String username;
-    @TableField(value = "email")
-    private String email;
     @TableField(value = "school_id")
     private int school_id;
-    @TableField(value = "first_name")
-    private String first_name;
-    @TableField(value = "last_name")
-    private String last_name;
     @TableField(value = "gender")
     private String  gender;
-    @TableField(value = "birthdate")
-    private Date birthdate;
-    @TableField(value = "address")
-    private String address;
+    @TableField(value = "avatar")
+    private String avatar;
     @TableField(value = "school_id",exist = false)
     private int school_ex;
 
@@ -40,13 +32,9 @@ public class User {
         return "User{" +
                 "user_id=" + user_id +
                 ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
                 ", school_id=" + school_id +
-                ", first_name='" + first_name + '\'' +
-                ", last_name='" + last_name + '\'' +
                 ", gender='" + gender + '\'' +
-                ", birthdate=" + birthdate +
-                ", address='" + address + '\'' +
+                ", avatar='" + avatar + '\'' +
                 ", school_ex=" + school_ex +
                 '}';
     }
